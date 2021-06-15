@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shotcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Hubanek</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./js/custom-main.js"></script>
+    <script src="./js/custom-index.js"></script>
+</head>
+<div class="alert text-center">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Táto stránka používa cookies. Keď používate túto stránku, akceptujete všetky podmienky </strong><a href="https://en.wikipedia.org/wiki/HTTP_cookie"><span class="underline">Získajte viac informácií o cookies</span></a>
+</div>
+<body class="h-screen overflow-auto items-center justify-center bg-white">
+  <!--PRELOADER-->
+  <div id='preloader'>
+    <img src="./img/preloader.gif" alt="preloader">
+</div>
+    <!--LOGO-->
+    <header class="text-gray-600 bg-purple-200">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center bg-purple-200">
+          <a href="./index.html" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <p class="font-bold ml-3 text-5xl text-transparent bg-clip-text bg-gradient-to-br from-green-500 to-green-800 z-40 p-5">Hubanek</p>
+          </a>
+          <!--NAVIGATION-->
+          <ul class="md:px-2 ml-auto md:flex md:space-x-2 absolute md:relative top-full left-0 right-0">
+            <li>
+                <a href="./index.html" class="text-xl font-bold transition duration-500 ease-in-out text-gray-900 flex md:inline-flex p-4 items-center hover:text-green-900 border-8 border-green-200 rounded-full bg-white hover:bg-purple-200 hover:border-green-700">
+                    <span>Domovská stránka</span>
+                </a>
+            </li>
+            <li>
+                <a href="./contact.html" class="text-xl font-bold transition duration-500 ease-in-out text-gray-900 flex md:inline-flex p-4 items-center hover:text-green-900 border-8 border-green-200 rounded-full bg-white hover:bg-purple-200 hover:border-green-700">
+                    <span>Kontaktuj nás</span>
+                </a>
+            </li>
+            <li>
+              <a href="./policy.html" class="text-xl font-bold transition duration-500 ease-in-out text-gray-900 flex md:inline-flex p-4 items-center hover:text-green-900 border-8 border-green-200 rounded-full bg-white hover:bg-purple-200 hover:border-green-700">
+                  <span>Zásady ochrany osobných údajov</span>
+              </a>
+          </li>
+            </ul>
+            </div>
+            </header>
+            <!--bigimage-->
+            <section class="bg-center bg-no-repeat bg-cover bg-fixed" style="background-color: #cdc2ea;background-image: url(./img/main-bg.jpg)">
+              <div class="container mx-auto px-4 py-40 md:py-56 flex flex-col justify-center index-banner">
+                  <div class="text-white text-shadow-md text-center md:text-left bg-purple-200 mx-auto p-4 rounded-xl">
+                      <h1 class="font-bold text-xl md:text-5xl text-black text-shadow">Problémy s nohou a kožou - žiadny ďalší problém</h1>
+                  </div>
+              </div>
+          </section>
+<!-- home content -->
+<div class="w-full px-6 py-12">
+  <div class="container max-w-4xl mx-auto text-center pb-10"> 
+    <h3 class="text-xl md:text-3xl leading-tight text-center max-w-md mx-auto text-gray-900 mb-4 bg-purple-200 p-4 rounded-xl">Nájdete tu svoje obľúbené témy o problémoch kože a nechtov</h3>
+  </div>
+
+  <div class="container max-w-5xl mx-auto text-center flex items-start md:flex-no-wrap">
+    
+    <div class="my-4 w-full md:w-1/3 flex flex-col items-center justify-center bg-purple-200 p-4 mr-4">
+      <a href="./first.html">
+      <img src="./img/page-1.jpg" class="w-full h-64 object-cover mb-6" />
+      <h2 class="text-xl leading-tight mb-2">Zistite strašnú pravdu o plesni skôr ako vám odtrhnú nechty! Prečo je potrebné liečiť plesne najlacnejším liekom?</h2>
+      </a>
+    </div>
+    
+    <div class="my-4 w-full md:w-1/3 flex flex-col items-center justify-center bg-purple-200 p-4 mr-4">
+      <a href="./second.html">
+      <img src="./img/page-2.jpg" class="w-full h-64 object-cover mb-6" />
+      <h2 class="text-xl leading-tight mb-2">Miloslava Kopecká: Tento program je o tom, ako ochromiť ľudí kožnou mykózou, skryť pred nimi pravdu a prípravky, ktoré môžu zachrániť milióny životov.</h2>
+      </a>
+    </div>
+    
+    <div class="my-4 w-full md:w-1/3 flex flex-col items-center justify-center bg-purple-200 p-4">
+      <a href="./third.html">
+      <img src="./img/page-3.jpg" class="w-full h-64 object-cover mb-6" />
+      <h2 class="text-xl leading-tight mb-2">Podľa Hanny Jankovičovej: "môžem garantovať, že každá osoba, ktorá trpí plesňou so zľavou dostane liek, ktorý lieči plesní a zabraňuje otrave krvi.»</h2>
+      <p class="mt-3 mx-auto text-sm leading-normal"></p>
+      </a>
+    </div>
+
+  </div>
+</div>
+<!-- /home content -->
+      <!--FOTTER-->
+      <div class="flex flex-wrap justify-center bg-purple-200 p-6">
+        <div class="flex flex-wrap mb-4 w-full">
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 ">
+            <h3 class="text-3xl py-4">O nás</h3>
+            <p>Sme malý tím, ktorý vedie blog o problémoch s pokožkou, ktoré sa môžu dotknúť každého, tu môžete vidieť tipy a odporúčania na opravu týchto problémov a sme radi, že vám pomôžu</p>
+          </div>
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 pl-8">
+            <h3 class="text-3xl py-4">Rýchla navigácia</h3>
+            <ul class="text-xl">
+              <li class="transition duration-300 hover:text-green-500"><a href="./index.html">Domovská stránka</a></li>
+              <li class="transition duration-300 hover:text-green-500"><a href="./contact.html">Kontaktuj nás</a></li>
+              <li class="transition duration-300 hover:text-green-500"><a href="./policy.html">Zásady ochrany osobných údajov</a></li>
+            </ul>
+          </div>
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 ">
+            <h3 class="text-3xl py-4">Sociálne odkazy</h3>
+            <ul class="text-xl">
+              <li class="transition duration-300 hover:text-green-500"><a href="https://twitter.com">Twitter</a></li>
+              <li class="transition duration-300 hover:text-green-500"><a href="https://instagram.com">Instagram</a></li>
+              <li class="transition duration-300 hover:text-green-500"><a href="https://facebook.com">Facebook</a></li>
+            </ul>
+          </div>
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4">
+            <h3 class="text-3xl py-4">Prihlásiť sa</h3>
+            <form action="#">
+              <div class="mb-4">
+                <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" placeholder="Email">
+              </div>
+              <button  class="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded" type="submit">Predložiť</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="bg-purple-300 p-2 pl-6">
+        <p class="bottom">© Hubanek - Všetky práva vyhradené</p>
+      </div>
+      </footer>
+       </body>
+       </html>
